@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 3bd3c4274d39cae49b8afe784224ecdb
+guid: f0d594f6da9147f43a988ce274e4b0ed
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-    second: Take 001
+    second: Chuseok_002
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -26,16 +26,16 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationCompression: 0
+    animationRotationError: 0
+    animationPositionError: 0
+    animationScaleError: 0
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: Chuseok_002
       takeName: Take 001
       internalID: 0
       firstFrame: 0
@@ -46,7 +46,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
