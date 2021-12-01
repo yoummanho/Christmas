@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1037050642}
-  m_IndirectSpecularColor: {r: 497.3073, g: 75.75677, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -659,7 +659,7 @@ MonoBehaviour:
   ScreenSpaceClipPlaneOffset: 0.01
   UseVolumetricLight: 1
   ShowVolumetricLightSettings: 1
-  VolumetricLightResolutionScale: 0.15
+  VolumetricLightResolutionScale: 0.75
   VolumetricLightIteration: 4
   VolumetricLightBlurRadius: 1
   UseFlowMap: 0
@@ -729,18 +729,12 @@ MonoBehaviour:
   TesselationFactor: 0.6
   TesselationMaxDistance: 1000
   _waterGUID: d6c7c7778a8bec54893ada9bb77979ea
-  currentCamera: {fileID: 629415699}
+  currentCamera: {fileID: 0}
   tempGameObject: {fileID: 0}
   BakedFluidsSimPercentPassed: 0
-  currentWaterMesh: {fileID: 1639527690}
+  currentWaterMesh: {fileID: 1812217863}
   waterMeshGO: {fileID: 0}
   waterSharedMaterials:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 0}
   waterMaterial: {fileID: 0}
 --- !u!4 &327344062
@@ -1548,7 +1542,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!154 &1598202505
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -1627,7 +1621,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!43 &1639527690
+--- !u!43 &1812217863
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
